@@ -1,7 +1,7 @@
 module.exports = {
   env: {
     es6: true,
-    node: true
+    node: true,
   },
   extends: [
     "eslint:recommended",
@@ -9,7 +9,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "prettier/@typescript-eslint"
+    "prettier/@typescript-eslint",
   ],
   parser: "@typescript-eslint/parser",
   plugins: ["react", "@typescript-eslint"],
@@ -27,10 +27,13 @@ module.exports = {
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/no-use-before-define": "off",
-    "@typescript-eslint/interface-name-prefix": ["warn", { prefixWithI: "always" }]
+    "@typescript-eslint/interface-name-prefix": [
+      "warn",
+      { prefixWithI: "always" },
+    ],
   },
   settings: {
     react: { version: "detect" },
-    "import/resolver": { typescript: {} }
-  }
+    "import/resolver": { typescript: {} },
+  },
 };

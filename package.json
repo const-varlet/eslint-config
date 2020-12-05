@@ -9,5 +9,15 @@
   "repository": "git://github.com/constvarlet/eslint-config.git",
   "author": "Hyungu Kang <gusrn1423@naver.com>",
   "license": "MIT",
-  "homepage": "https://github.com/constvarlet/eslint-config#readme"
+  "homepage": "https://github.com/constvarlet/eslint-config#readme",
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1"
+  }
 }
