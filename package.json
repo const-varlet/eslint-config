@@ -1,0 +1,13 @@
+{
+  "name": "@constvarlet/eslint-config",
+  "version": "1.0.0",
+  "description": "eslint configuration",
+  "main": "react-native.js",
+  "scripts": {
+    "publish": "yarn publish --access public"
+  },
+  "repository": "git://github.com/constvarlet/eslint-config.git",
+  "author": "Hyungu Kang <gusrn1423@naver.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/constvarlet/eslint-config#readme"
+}
