@@ -9,7 +9,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "prettier/@typescript-eslint",
+    "prettier",
   ],
   parser: "@typescript-eslint/parser",
   plugins: ["react", "@typescript-eslint"],
@@ -26,11 +26,7 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/no-empty-function": "off",
-    "@typescript-eslint/no-use-before-define": "off",
-    "@typescript-eslint/interface-name-prefix": [
-      "warn",
-      { prefixWithI: "always" },
-    ],
+    "@typescript-eslint/no-use-before-define": "off"
   },
   settings: {
     react: { version: "detect" },
